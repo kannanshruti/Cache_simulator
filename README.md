@@ -21,4 +21,5 @@
 > g++ cache_sim.cpp -std=c++11 -o cache_sim
 > ./cache_sim <INPUT_FILE> <CACHE_SIZE> <N_WAY_ASSOCIATIVITY>
 
-## Acknowledgement: Shreyas Joshi
+## Co-author: 
+Shreyas Joshi
