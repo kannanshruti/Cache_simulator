@@ -18,8 +18,9 @@
 - If the address does not exist, and the cache row for that memory 'index' is full, one of the cells must be 'evicted', and the new information from this memory address, stored in its place. One of the cells of this 'index' with the 'nmru' bit reset (i.e. it is not the most recently used cell) is evicted. This is counted as a 'load miss' or a 'store miss'.
 
 ## How to run:
+- Compile:
 > g++ cache_sim.cpp -std=c++11 -o cache_sim
-and then:
+- Run:
 > ./cache_sim <INPUT_FILE> <CACHE_SIZE> <N_WAY_ASSOCIATIVITY>
 
 ## Co-author: 
