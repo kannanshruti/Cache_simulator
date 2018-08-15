@@ -19,6 +19,7 @@
 
 ## How to run:
 > g++ cache_sim.cpp -std=c++11 -o cache_sim
+and then:
 > ./cache_sim <INPUT_FILE> <CACHE_SIZE> <N_WAY_ASSOCIATIVITY>
 
 ## Co-author: 
