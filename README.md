@@ -23,5 +23,32 @@
 - Run:
 > ./cache_sim <INPUT_FILE> <CACHE_SIZE> <N_WAY_ASSOCIATIVITY>
 
+## Sample input/ output
+Input: 
+0x00CDEF00 0
+0xAACDEF00 0
+0xBBCDEF00 0
+0xCCCDEF00 0
+0xBBCDEF00 0
+0x00CDEF00 1
+0xCCCDEF00 0
+0xAACDEF00 0
+0xABCDEF10 0
+0xAACDEF00 0
+0xADCDEF20 0
+0xAECDEF00 0
+
+Output:
+Number of accesses:12
+Number of loads:11
+Number of stores:1
+Number of hits:5
+Number of load hits:4
+Number of store hits:1
+Number of miss:7
+Number of load miss:7
+Number of store miss:0
+Number of evictions:3
+
 ## Co-author: 
 Shreyas Joshi
