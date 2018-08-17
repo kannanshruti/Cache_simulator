@@ -338,10 +338,6 @@ int main(int argc, char* argv[]) {
 		// Decoding the input memory address and
 		// Separating index, offset, tag of the input address
 		c1.get_file_line(c1.input_address[index], c1.input_ldst[index]);
-		cout << " Tag " << c1.mem_access.addr_tag << "\n";
-		cout << " Index " << c1.mem_access.addr_index << "\n";
-		cout << " Offset " << c1.mem_access.addr_offset <<"\n";
-		cout << " LDST " << c1.mem_access.ld_st <<"\n";
 
 		// Check if present in cache
 		c1.check_in_cache();
